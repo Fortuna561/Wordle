@@ -1,0 +1,90 @@
+* {
+font-family: 'Fredoka', sans-serif;
+}
+
+body {
+background: #141414;
+color: #FFF;
+padding: 0px;
+}
+
+h1 {
+font-size: 40px;
+font-weight: 300;
+letter-spacing: 0.05em;
+line-height: 1.75rem;
+margin: 0px 0px 20px 40px;
+}
+
+.creator {
+font-size: 40px;
+font-weight: 300;
+letter-spacing: 0.05em;
+line-height: 1.75rem;
+margin: 0px 0px 20px -90px;
+}
+    
+
+h4 {
+font-size: 20px;
+font-weight: 100;
+letter-spacing: 0.05em;
+line-height: 1.75rem;
+text-align: start;
+}
+
+.buttons {
+display: grid;
+grid-template-columns: repeat(5, 60px);
+grid-gap: 3px;
+text-align: center;
+}
+
+.button { 
+width: 60px;
+height: 60px;
+font-size: 30px;
+font-weight: 500;
+background: #141414;
+color: #FFF;
+border: 2px solid #414141;
+}
+
+.buttons-keyboard {
+padding: 10px 0px 5px 0px;
+margin: 0px 0px 0px -84.5px;
+display: grid;
+grid-template-columns: repeat(10, 45px);
+grid-gap: 3px;
+text-align: center;
+}
+
+.button-keyboard { 
+width: 45px;
+height: 45px;
+font-size: 22px;
+font-weight: 300;
+background: #828282;
+color: #FFF;
+border: 0px solid #FFF;
+border-radius: 5px;
+}
+
+.button-keyboard:hover { 
+background: #A0A0A0;
+}
+
+.button-keyboard-special-transparent {
+background: transparent;
+border: 0px solid transparent;
+}
+
+.button-keyboard-special-transparent:hover {
+background: transparent;
+border: 0px solid transparent;
+}
+
+.button-keyboard-special-send { 
+z-index: 2;
+width: 93px;
+}
